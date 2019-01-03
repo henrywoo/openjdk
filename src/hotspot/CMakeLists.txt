@@ -5,6 +5,10 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(../java.base/share/native/include/)
 include_directories(share/)
+include_directories(../../build/linux-x86_64-server-slowdebug/hotspot/variant-server/gensrc/)
+include_directories(../../build/linux-x86_64-server-slowdebug/jdk/include/linux)
+
+
 include_directories(cpu/aarch64)
 include_directories(cpu/aarch64/gc/g1)
 include_directories(cpu/aarch64/gc/shared)
